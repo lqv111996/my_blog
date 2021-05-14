@@ -1,6 +1,6 @@
-package com.vn.blog_project.repo;
+package com.vn.my_blog.repo;
 
-import com.vn.blog_project.model.Topic;
+import com.vn.my_blog.model.Topic;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

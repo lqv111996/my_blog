@@ -1,8 +1,8 @@
-package com.vn.blog_project.service;
+package com.vn.my_blog.service;
 
-import com.vn.blog_project.exception.AccountNotFoundException;
-import com.vn.blog_project.model.Account;
-import com.vn.blog_project.repo.AccountRepo;
+import com.vn.my_blog.exception.AccountNotFoundException;
+import com.vn.my_blog.model.Account;
+import com.vn.my_blog.repo.AccountRepo;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

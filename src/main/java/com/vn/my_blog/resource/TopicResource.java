@@ -1,8 +1,8 @@
-package com.vn.blog_project.resource;
+package com.vn.my_blog.resource;
 
 
-import com.vn.blog_project.model.Topic;
-import com.vn.blog_project.service.TopicService;
+import com.vn.my_blog.model.Topic;
+import com.vn.my_blog.service.TopicService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

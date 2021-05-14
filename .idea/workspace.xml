@@ -6,7 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="34917657-8c51-4586-ba53-fcce06c8331e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/BlogProjectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/BlogProjectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/exception/AccountNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/exception/AccountNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/exception/PostNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/exception/PostNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/exception/TopicNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/exception/TopicNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/model/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/model/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/repo/AccountRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/repo/AccountRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/repo/PostRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/repo/PostRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/repo/TopicRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/repo/TopicRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/resource/AccountResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/resource/AccountResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/resource/PostResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/resource/PostResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/resource/TopicResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/resource/TopicResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vn/blog_project/service/TopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vn/my_blog/service/TopicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vn/blog_project/BlogProjectApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vn/my_blog/BlogProjectApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +47,47 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="my_blog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="my_blog" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="my-blog" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vn.myblog.MyBlogApplication" />
+      <module name="my_blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vn.my_blog.MyBlogApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -51,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620903910399</updated>
       <workItem from="1620903911676" duration="2964000" />
-      <workItem from="1620956849692" duration="573000" />
+      <workItem from="1620956849692" duration="1268000" />
     </task>
     <servers />
   </component>

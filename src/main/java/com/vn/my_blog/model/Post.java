@@ -1,4 +1,4 @@
-package com.vn.blog_project.model;
+package com.vn.my_blog.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

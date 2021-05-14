@@ -1,9 +1,9 @@
-package com.vn.blog_project.service;
+package com.vn.my_blog.service;
 
 
-import com.vn.blog_project.exception.TopicNotFoundException;
-import com.vn.blog_project.model.Topic;
-import com.vn.blog_project.repo.TopicRepo;
+import com.vn.my_blog.exception.TopicNotFoundException;
+import com.vn.my_blog.model.Topic;
+import com.vn.my_blog.repo.TopicRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

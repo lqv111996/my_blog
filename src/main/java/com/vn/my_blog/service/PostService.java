@@ -1,8 +1,8 @@
-package com.vn.blog_project.service;
+package com.vn.my_blog.service;
 
-import com.vn.blog_project.exception.PostNotFoundException;
-import com.vn.blog_project.model.Post;
-import com.vn.blog_project.repo.PostRepo;
+import com.vn.my_blog.exception.PostNotFoundException;
+import com.vn.my_blog.model.Post;
+import com.vn.my_blog.repo.PostRepo;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.vn.blog_project.resource;
+package com.vn.my_blog.resource;
 
 public class PostResource {
 }

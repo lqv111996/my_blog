@@ -1,7 +1,6 @@
-package com.vn.blog_project.repo;
+package com.vn.my_blog.repo;
 
-import com.vn.blog_project.model.Account;
-import com.vn.blog_project.model.Post;
+import com.vn.my_blog.model.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

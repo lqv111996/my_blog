@@ -1,7 +1,7 @@
-package com.vn.blog_project.resource;
+package com.vn.my_blog.resource;
 
-import com.vn.blog_project.model.Account;
-import com.vn.blog_project.service.AccountService;
+import com.vn.my_blog.model.Account;
+import com.vn.my_blog.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
